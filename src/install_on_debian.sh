@@ -10,7 +10,7 @@ fi
 wget https://dl.thorium.rocks/debian/dists/stable/thorium.list
 sudo mv thorium.list /etc/apt/sources.list.d/
 sudo apt update
-sudo apt install thorium-browser-unstable
+sudo apt install thorium-browser-unstable chromium
 
 #Installing VS Codium - fork of VS Code without telemetry
 wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg \
@@ -26,7 +26,7 @@ sudo apt install qbittorrent filezilla zeal telegram-desktop
 sudo apt install i3 rofi feh
 sudo apt install qtcreator libqt5designer5 libqt6designer6
 sudo apt install zsh micro neovim tmux screen htop neofetch kitty codeblocks
-sudo apt install flameshot simplesreenrecorder audacity kdenlive gnome-boxes 
+sudo apt install flameshot simplesreenrecorder audacity kdenlive gnome-boxes playonlinux
 
 #Installing TLauncher Legacy 
 wget -O tlauncher.deb https://tlaun.ch/ubuntu
