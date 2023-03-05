@@ -29,12 +29,12 @@ echo 'deb [ signed-by=/usr/share/keyrings/vscodium-archive-keyring.gpg ] https:/
 sudo apt update && sudo apt install codium -y
 
 #Installing usualy used apps devided by categories
-sudo apt install python3 python3-pip dub golang pypy3 tcc opam default-jre -y
+sudo apt install python3 python3-pip dub golang pypy3 php composer tcc opam default-jre -y
 sudo apt install qbittorrent filezilla zeal telegram-desktop qpdfview clamav  -y
 sudo apt install i3 rofi feh dwm suckless-tools i3status -y
 sudo apt install qtcreator libqt5designer5 libqt6designer6 -y
 sudo apt install zsh micro neovim tmux tree screen htop neofetch kitty sysbenchcodeblocks bat -y
-sudo apt install flameshot simplescreenrecorder audacity kdenlive gnome-boxes network-manager network-manager-gnome  -y
+sudo apt install flameshot obs-studio  simplescreenrecorder audacity kdenlive gnome-boxes network-manager network-manager-gnome  -y
 
 #Installing TLauncher Legacy 
 wget -O tlauncher.deb https://tlaun.ch/ubuntu
