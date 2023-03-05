@@ -18,12 +18,7 @@ fi
 #Installing faster chromium fork
 wget https://dl.thorium.rocks/debian/dists/stable/thorium.list
 sudo mv thorium.list /etc/apt/sources.list.d/
-sudo apt update
-<<<<<<< HEAD
-sudo apt install thorium-browser-unstable -y
-=======
-sudo apt install thorium-browser-unstable chromium
->>>>>>> 1325882bf71e2269e438c152117d897a828d7b6e
+sudo apt update && sudo apt install thorium-browser-unstable chromium
 
 #Installing VS Codium - fork of VS Code without telemetry
 wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg \
@@ -34,21 +29,12 @@ echo 'deb [ signed-by=/usr/share/keyrings/vscodium-archive-keyring.gpg ] https:/
 sudo apt update && sudo apt install codium -y
 
 #Installing usualy used apps devided by categories
-<<<<<<< HEAD
 sudo apt install python3 python3-pip dub golang pypy3 opam default-jre -y
 sudo apt install qbittorrent filezilla zeal telegram-desktop qpdfview clamav  -y
 sudo apt install i3 rofi feh dwm suckless-tools i3status -y
 sudo apt install qtcreator libqt5designer5 libqt6designer6 -y
 sudo apt install zsh micro neovim tmux tree screen htop neofetch kitty codeblocks bat -y
 sudo apt install flameshot simplescreenrecorder audacity kdenlive gnome-boxes network-manager network-manager-gnome  -y
-=======
-sudo apt install python3 python3-pip dub golang pypy3 opam default-jre
-sudo apt install qbittorrent filezilla zeal telegram-desktop
-sudo apt install i3 rofi feh
-sudo apt install qtcreator libqt5designer5 libqt6designer6
-sudo apt install zsh micro neovim tmux screen htop neofetch kitty codeblocks
-sudo apt install flameshot simplesreenrecorder audacity kdenlive gnome-boxes playonlinux
->>>>>>> 1325882bf71e2269e438c152117d897a828d7b6e
 
 #Installing TLauncher Legacy 
 wget -O tlauncher.deb https://tlaun.ch/ubuntu
