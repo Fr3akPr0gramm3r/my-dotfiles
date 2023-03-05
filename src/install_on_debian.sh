@@ -33,7 +33,7 @@ sudo apt install python3 python3-pip dub golang pypy3 opam default-jre -y
 sudo apt install qbittorrent filezilla zeal telegram-desktop qpdfview clamav  -y
 sudo apt install i3 rofi feh dwm suckless-tools i3status -y
 sudo apt install qtcreator libqt5designer5 libqt6designer6 -y
-sudo apt install zsh micro neovim tmux tree screen htop neofetch kitty codeblocks bat -y
+sudo apt install zsh micro neovim tmux tree screen htop neofetch kitty sysbenchcodeblocks bat -y
 sudo apt install flameshot simplescreenrecorder audacity kdenlive gnome-boxes network-manager network-manager-gnome  -y
 
 #Installing TLauncher Legacy 

@@ -17,6 +17,11 @@ sudo mkdir -p ~/.local/share/rofi/themes/
 sudo cp themes-rofi/themes/* ~/.local/share/rofi/themes/
 rofi-theme-selector
 
+git clone https://github.com/goplus/gop.git
+cd gop
+./all.bash
+
+
 #Removing all temp files and folders
 rm tlaunch*
 rm -Rf thmeme*
