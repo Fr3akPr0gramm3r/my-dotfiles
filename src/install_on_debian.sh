@@ -29,7 +29,7 @@ echo 'deb [ signed-by=/usr/share/keyrings/vscodium-archive-keyring.gpg ] https:/
 sudo apt update && sudo apt install codium -y
 
 #Installing usualy used apps devided by categories
-sudo apt install python3 cmake python3-pip dub golang pypy3 php composer tcc opam default-jdk default-jre -y
+sudo apt install python3 cmake maven gradle python3-pip dub golang pypy3 php composer tcc opam default-jdk default-jre -y
 sudo apt install qbittorrent filezilla zeal telegram-desktop qpdfview clamav  -y
 sudo apt install i3 rofi feh dwm suckless-tools i3status -y
 sudo apt install qtcreator libqt5designer5 libqt6designer6 -y
