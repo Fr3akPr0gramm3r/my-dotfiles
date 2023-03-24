@@ -1,10 +1,11 @@
 #!/bin/bash
+sudo chmod 777 ./* -R
 
 os_info="`cat /proc/version`"
 
 if [[ $os_info == *"Debian"* ]]; then 
 	sudo ./src/install_on_debian.sh
-elif [[ $os_info == *"Arch"* ]]; then
+elif [[ $os_info == *"arch"* ]]; then
 	sudo ./src/install_on_arch.sh
 fi
 
